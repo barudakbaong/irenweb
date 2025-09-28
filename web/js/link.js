@@ -11,13 +11,13 @@ let filteredProxyList = []
 let selectedProxy = null
 const defaultProxyUrl = "https://raw.githubusercontent.com/AFRcloud/ProxyList/refs/heads/main/ProxyList2.txt"
 
-const serverDomains = ["siren.afrcloud.site"]
+const serverDomains = ["siren.uk81.my.id"]
 let selectedServerDomain = serverDomains[0] // Default to first domain
 const defaultUUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
 const itemsPerPage = 10
 let currentPage = 1
 
-const pathTemplate = "/afrcloud/{ip}-{port}"
+const pathTemplate = "/uk81/{ip}-{port}"
 
 const urlList = [
   "academy.webex.com",
