@@ -1,11 +1,11 @@
 const CONFIG = {
   'proxyListUrl': "https://raw.githubusercontent.com/AFRcloud/ProxyList/refs/heads/main/ProxyList.txt",
   'apiCheckUrl': "https://api.jb8fd7grgd.workers.dev/",
-  'mainDomains': ["siren.afrcloud.site"],
+  'mainDomains': ["siren.uk81.my.id"],
   'defaultUuid': 'bbbbbbbb-cccc-4ddd-eeee-ffffffffffff',
   'maxProxies': 0x32,
   'defaultProxyCount': 0x5,
-  'pathTemplate': "/afrcloud/{ip}-{port}"
+  'pathTemplate': "/uk81/{ip}-{port}"
 };
 let proxyList = [];
 let filteredProxyList = [];
@@ -251,7 +251,7 @@ function generateConfiguration(_0x1f0a31, _0x142717, _0x559e83, _0x2af67c, _0x2a
     case "nekobox":
       const _0x325b5f = [];
       _0x26af7a.forEach(_0x2f8b2a => {
-        const _0x2a6cad = "/afrcloud/{ip}-{port}".replace("{ip}", _0x2f8b2a.ip).replace("{port}", _0x2f8b2a.port);
+        const _0x2a6cad = "/uk81/{ip}-{port}".replace("{ip}", _0x2f8b2a.ip).replace("{port}", _0x2f8b2a.port);
         const _0x5796b5 = _0x2a8e81 ? 0x1bb : 0x50;
         const _0x10ed8d = _0x306f9c && (_0x2af67c === "non-wildcard" || _0x2af67c === "wildcard") ? _0x306f9c.split(',').map(_0x2065e6 => _0x2065e6.trim()) : [_0x2a84fa];
         _0x10ed8d.forEach(_0x56a273 => {
@@ -342,7 +342,7 @@ function generateV2rayLinks(_0x4ae1c6, _0x4b8e74, _0x29ed29, _0x229483, _0x40705
     _0x225dcd = _0x529635.split(',').map(_0x300d17 => _0x300d17.trim());
   }
   _0x4b8e74.forEach(_0x29873d => {
-    const _0xf9d8cf = "/afrcloud/{ip}-{port}".replace("{ip}", _0x29873d.ip).replace('{port}', _0x29873d.port);
+    const _0xf9d8cf = "/uk81/{ip}-{port}".replace("{ip}", _0x29873d.ip).replace('{port}', _0x29873d.port);
     const _0x197458 = _0x2014a9 ? 0x1bb : 0x50;
     const _0x56327b = _0x2014a9 ? "tls" : 'none';
     if (_0x4ae1c6 === "mix" || _0x4ae1c6 === 'vmess') {
@@ -444,7 +444,7 @@ function generateClashConfig(_0x1786a5, _0x29feac, _0x5e4410, _0x2cde90, _0x2020
     _0x67ac19 = _0xdfe797.split(',').map(_0x457eae => _0x457eae.trim());
   }
   _0x29feac.forEach(_0x468e1e => {
-    const _0x3401f7 = "/afrcloud/{ip}-{port}".replace('{ip}', _0x468e1e.ip).replace('{port}', _0x468e1e.port);
+    const _0x3401f7 = "/uk81/{ip}-{port}".replace('{ip}', _0x468e1e.ip).replace('{port}', _0x468e1e.port);
     const _0x5a3f41 = _0x20d327 ? 0x1bb : 0x50;
     if (_0x1786a5 === "mix" || _0x1786a5 === 'vmess') {
       if (_0x67ac19.length > 0x0) {
